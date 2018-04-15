@@ -1,0 +1,23 @@
+{
+  "name": "travel-agency-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusWebDev/travel-angecy-site.git"
+  },
+  "author": "Matheus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatheusWebDev/travel-angecy-site/issues"
+  },
+  "homepage": "https://github.com/MatheusWebDev/travel-angecy-site#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "normalize.css": "^8.0.0"
+  }
+}
