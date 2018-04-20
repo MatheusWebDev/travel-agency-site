@@ -633,7 +633,7 @@ a {
 		background: #e0e6ef;
 	}
 
-@media (min-width: 800px) {
+@media (min-width: 1010px) {
 
 .page-section--testimonials {
 			background: url('https://preview.c9users.io/matheussky/travel-agency-site/app/assets/images/testimonials-bg.jpg') top center no-repeat;
@@ -954,7 +954,7 @@ a {
     margin-bottom: 98px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1010px) {
 
 .testimonial {
         padding: 0 1.8125rem 1px;
