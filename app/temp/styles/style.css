@@ -636,7 +636,7 @@ a {
 @media (min-width: 1010px) {
 
 .page-section--testimonials {
-			background: url('https://preview.c9users.io/matheussky/travel-agency-site/app/assets/images/testimonials-bg.jpg') top center no-repeat;
+			background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
 			background-size: cover
 	}
 	}
