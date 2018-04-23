@@ -9,8 +9,8 @@ gulp.task('watch', function(){
 		server: {
 			baseDir: "./app"
 		},
-	    //port: process.env.PORT, // https://travel-agency-site-matheussky.c9users.io:8080/index.html
-	    //ui: { port: 8081 } 
+	    port: process.env.PORT, // https://travel-agency-site-matheussky.c9users.io:8080/index.html
+	    ui: { port: 8081 } 
 	});
 
 	watch('./app/index.html', function() {
