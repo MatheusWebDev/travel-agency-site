@@ -1324,3 +1324,17 @@ Instead edit gulp/templates/sprite */
 			background: transparent
 	}
 	}
+
+.reveal-item {
+	opacity: 0;
+	-webkit-transition: all 1.5s ease-out;
+	transition: all 1.5s ease-out;
+	-webkit-transform: scale(1.5);
+	        transform: scale(1.5);
+}
+
+.reveal-item--is-visible {
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+		opacity: 1;
+	}
