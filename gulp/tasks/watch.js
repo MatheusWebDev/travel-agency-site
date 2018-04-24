@@ -7,7 +7,7 @@ gulp.task('watch', function(){
 	browserSync.init({
 		//notify: false,
 		server: {
-			baseDir: "./app"
+			baseDir: "app"
 		}//,
 	  //  port: process.env.PORT, // https://travel-agency-site-matheussky.c9users.io:8080/index.html
 	  //  ui: { port: 8081 } 
