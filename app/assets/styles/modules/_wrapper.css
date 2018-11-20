@@ -2,7 +2,7 @@
 	overflow: hidden;
 	padding-right: 18px;
 	padding-left: 18px;
-	max-width: 1236px;
+	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
 
@@ -13,21 +13,21 @@
 	&--narrow {
 		max-width: 470px;
 	}
-	
+
 	&--no-padding-until-medium {
 		padding-left: 0;
 		padding-right: 0;
-		
+
 		@mixin atMedium {
 			padding-right: 18px;
 			padding-left: 18px;
 		}
 	}
-	
+
 	&--no-padding-until-large {
 		padding-left: 0;
 		padding-right: 0;
-		
+
 		@mixin atLarge {
 			padding-right: 18px;
 			padding-left: 18px;
@@ -39,7 +39,7 @@
 		padding-right: 0;
 	}
 
-	&--b-margin { 
+	&--b-margin {
 		margin-bottom: 1rem;
 
 		@mixin atSmall {
